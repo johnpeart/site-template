@@ -1,0 +1,61 @@
+# Site settings
+
+title: "Site template"
+subtitle: "A template for generating sites in my personal theme."
+
+description: "A template for generating sites in my personal theme."
+
+baseurl: "/site-template" # the subpath of your site, e.g. /blog
+url: "https://johnpe.art"
+author: "John Peart"
+
+# Images and assets
+image-path: "/assets/images"
+css-path: "/assets/styles"
+js-path: "/assets/scripts"
+
+hero-images-path: "/assets/images/hero"
+social-images-path: "/assets/images/social"
+post-images-path: "/assets/images/posts"
+
+social-media-image: "/assets/images/site/social-media.png"
+
+theme-colour: "#009fe3"
+
+favicon: "/favicon.ico"
+favicon-svg: "/assets/images/site/favicon.svg"
+favicon-pinned-svg: "/assets/images/site/favicon-pinned-svg.svg"
+favicon-large-png: "/assets/images/site/favicon-large-png.png"
+
+# Social settings
+twitter-url: "https://twitter.com/johnpeart" # Twitter handle i.e. joebloggs
+twitter-handle: "johnpeart" # Twitter handle i.e. joebloggs
+
+mastodon-url: "https://mastodon.social/@johnpeart"
+mastodon-handle: "johnpeart@mastodon.social"
+
+github-url:  "https://github.com/johnpeart"
+github-handle:  "johnpeart"
+
+# Google settings
+google-site-verification: "DaqGCZ6cZIqm7q_nVSnOzjJmFFjbRfW2X7FDzpQDQZk"
+
+analytics: false
+
+# Site header
+
+header: true
+
+# Plugins and build settings
+
+permalink: /:year/:month/:day/:title
+markdown: kramdown
+future: false
+sass:
+    sass_dir: _sass
+
+remote_theme: johnpeart/jekyll-theme
+
+
+
+
