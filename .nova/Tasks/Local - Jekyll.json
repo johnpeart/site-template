@@ -10,7 +10,7 @@
     },
     "run" : {
       "enabled" : true,
-      "script" : "#!\/bin\/sh\nbundle exec jekyll serve"
+      "script" : "#!\/bin\/sh\nbundle exec jekyll serve --config _localconfig.yml"
     }
   },
   "identifier" : "B5221770-7BC4-42BD-9F2A-F09F9E7F6456"
